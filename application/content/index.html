@@ -1,0 +1,68 @@
+<html>
+
+<head> 
+ 
+	<!-- CSS Libraries --> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="../css/myStyle.css">
+
+	<!-- JS Libraries --> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.3.0/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+	
+	<!-- Custom JS --> 
+	<script src="../js/jQuery/myScript.js"></script> 
+	<script src="../js/angular/moduleDeclaration.js"></script> 
+	<script src="../js/angular/routers.js"></script> 
+	<script src="../js/angular/controllers.js"></script> 
+	<script src="../js/angular/services.js"></script> 
+	<script src="../js/angular/directives.js"></script> 
+	<script src="../js/angular/filters.js"></script> 
+
+</head> 
+
+<body ng-app="myApp" ng-controller="myCtrl"> 
+
+	<!-- 1 Top Logo Bar --> 
+	<section class="section1">
+		
+		<img class="starTvLogo" src="../img/globallogic1.png">
+		<span class="textToLogo"></span>
+		<img class="scoreDataLogo" src=""> 
+		<i class="fa fa-power-off logOut" aria-hidden="true" ng-click="logOut();"></i>
+	</section>
+
+	<!-- 2 navigtion --> 
+	<section class="section2">
+
+	</section>
+
+	<!-- 3 slider --> 
+	<section class="section3">
+		
+
+	</section>
+
+	<!-- 4 main content --> 
+	<!-- <section class="section4"> -->
+
+		<ng-view></ng-view>
+		
+	<!-- </section> -->
+
+	<!-- 5 footer --> 
+	<section class="section5">
+
+	</section>
+
+</body> 
+
+</html> 

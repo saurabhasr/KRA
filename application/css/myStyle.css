@@ -1,0 +1,37 @@
+/**================ CUSTOM CSS ====================*/ 
+
+/*body{overflow:hidden;}*/
+
+/******* section 1: Top bar ********/
+.section1{background:#000;min-height:60px;}
+.section1 img.starTvLogo{margin-left:20px;margin-top:10px;}
+.section1 span{font-size:18px;color:#ffffff;position:relative;top:5px;left:-60px;}
+.section1 img.scoreDataLogo{float:right;margin-top:15px;margin-right:40px;}
+.section1 .logOut{float:right; font-size:25px;margin-top: 23px; margin-right: 22px;color:#fff;cursor: hand;}
+
+/******* section 2: Navigation; ********/
+
+/******* section 3: Sliders; ********/
+
+/******* section 4: Main Content; ********/
+.section4a h3{width:90%;margin:auto;background:#ddd;border-radius:8px;margin-top:20px;padding:10px;}
+.section4a table{width:90%;border:2px solid #eee;margin:auto;margin-top:20px;}
+.section4a table th:nth-child(1){width:15%;}
+.section4a table th:nth-child(2){width:70%;}
+.section4a table th:nth-child(3){width:15%;text-align:center;}
+.section4a table td:nth-child(3){text-align:center;}
+
+.section4b h3{width:90%;margin:auto;background:#ddd;border-radius:8px;margin-top:20px;padding:10px;}
+.section4b table{width:90%;border:2px solid #eee;margin:auto;margin-top:20px;}
+.section4b table th:nth-child(1){width:15%;}
+.section4b table th:nth-child(2){width:70%;}
+.section4b table th:nth-child(3){width:15%;text-align:center;}
+.section4b table td:nth-child(3){text-align:center;}
+
+.section4a .filler input{width:100%;min-height:40px;}
+.section4a .submitDiv {text-align:center;padding:10px;}
+
+/******* section 5: Footer; ********/
+
+/* ==========================> MEDIA QUERY <================================ */
+

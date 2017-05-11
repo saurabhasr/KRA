@@ -1,0 +1,29 @@
+body{overflow:hidden;}
+
+/* Section 1 */ 
+.section1{background:#fff;min-height:60px;}
+.section1 img.starTvLogo{margin-left:20px;margin-top:10px;}
+.section1 span{font-size:18px;color:#ffffff;position:relative;top:5px;left:-60px;}
+.section1 img.scoreDataLogo{float:right;margin-top:15px;margin-right:40px;}
+.section1 .message{color: red; font-size: 16px; text-align: center; font-weight: bold; background: rgba(256,256,256,0.45); border-radius: 5px; margin-top: 20px;}
+
+/* Section 4 */
+.section4 {background:url('../img/black_pattern_tile.jpg'); min-height:610px;overflow:hidden;}
+.section4 .greenBox{min-height:100px;background:/*pink*/;margin-top:200px;padding:10px;}
+.section4 .content{padding:10px;width:300px;margin:auto;border:2px solid #999;border-radius:8px;}
+.section4 .content *{display:block;width:100%;}
+.section4 .content span{margin-bottom:6px;color:#fff;font-family:comic sans ms;}
+.section4 .content input{margin-bottom:10px;background:transparent;border:0px;border-bottom:1px solid #fff;color:#aaaaaa;/*padding:0px 5px*/;outline:none;}
+.section4 button{background:#0081EA;border-color:#0081EA;border-radius:0px;font-weight:bold;margin-top:20px;margin-bottom:20px;}
+.section4 .message{color: red; font-size: 16px; text-align: center; font-weight: bold; background: rgba(256,256,256,0.45); border-radius: 5px; margin-top: 20px;}
+
+/* ==========================> MEDIA QUERY <================================ */
+
+@media only screen and (min-width:1280px){
+.section4 {min-height:680px;}
+
+}
+
+@media only screen and (max-width:1280px){
+
+}
